@@ -1,0 +1,449 @@
+
+root {
+    display: block;
+}
+
+body{
+    background-image: url(../images/bg7.jpg);
+    margin: 0;
+    font-size: 13px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #232323;
+}
+.body_content{
+    margin-top: 0px;
+    background-color: #ffffff;
+    width: 950px;
+}
+.left{
+    padding-left: 0px;
+    width: 200px;
+    height: 550px;
+    border-right: solid 1px #636363;
+}
+.right{
+    padding-left: 0px;
+}
+.footer{
+    background-image: url(../images/header_bg.png);
+    background-repeat: repeat-x;
+    margin: 0;
+    width: 950px;
+    height: 40px;
+}
+
+.white_font_bold{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    color: #f6f6f6;
+    text-decoration: none;
+    text-align: center;
+    padding-left: 10px;
+}
+.white_font{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+
+    color: #f6f6f6;
+    text-decoration: none;
+    padding-left: 10px;
+
+}
+
+.yellow-font{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: yellow;
+    padding-left: 10px;
+    padding-right: 10px;    
+}
+
+.bold_matter{
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: bold;
+    color:#232323;
+    line-height: 35px;
+
+
+}
+
+.text{
+    font-weight: bold;
+    color: #711515;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.text-1 {
+    font-size:12px;
+    text-decoration:none;
+    width:220px;
+    padding: 1px;
+    height: 20px;
+
+}
+
+.description{
+    font-size:13px;
+    text-decoration:none;
+    width:220px;
+    padding: 2px;
+    height: 75px;
+}
+
+.text-2 {
+    font-size:13px;
+    color:#22749f;    
+    width:220px;
+    padding: 2px;
+    cursor: pointer;
+
+}
+
+.text-3 {
+    font-size:13px;
+    color:#22749f;
+    width:220px;
+    padding: 2px;
+
+}
+
+.text-4{
+    font-size:12px;
+    color:#636363;
+    padding: 2px;
+}
+
+
+.red-font{
+    font-size:13px;
+    color:maroon;
+    width:220px;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.cursor{
+    cursor:pointer;
+    font-size:13px;
+    font-weight:normal;
+    text-align:center;
+    color: #A51A1A;
+    padding: 2px;
+}
+
+.message{
+    width:100%;color: #3278A3; font-size: 12px;font-weight: bold;
+}
+
+.login{
+    background-image: url('../images/user_login.jpg');
+    background-repeat:  no-repeat;
+    width: 225px;
+    height: 225px;
+}
+legend{
+    font-size: 12px;
+    text-decoration: none;
+    color: #A51A1A;
+    font-weight: bold;
+    vertical-align: middle;
+}
+fieldset{
+    margin-top: 2em;
+}
+.text_bor{
+    border: 3px solid #666666;
+    font-size:12px;
+    margin:0px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.heading_lable{
+    font-size: 13px;
+    font-weight: bold;
+    color: #f6f6f6;
+    background-color: maroon;
+    text-align: center;
+    padding: 3px 15px 3px 15px;
+}
+
+
+
+.clear{
+    clear: both;
+    color: #ffffff;
+    font-size: 13px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.headtitle{
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    color: #711515;
+    font-size: 16px;
+    border-bottom: solid 1px #232323;
+
+}
+
+hr{
+    color: #232323;
+    border-width: 1px;
+}
+
+.line {
+    position:relative;
+    background:url(../images/rightside.gif) repeat-y right top;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+/* vertical menu */
+.arrowgreen{
+    width: 200px; /*width of menu*/
+    border-style: solid solid none solid;
+    border-color: #94AA74;
+    border-size: 1px;
+    border-width: 1px;
+}
+
+.arrowgreen ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.arrowgreen li a{
+    font: bold 12px Verdana, Arial, Helvetica, sans-serif;
+    display: block;
+    background: transparent url(../images/arrowblue.gif) 100% 0;
+    height: 24px; /*Set to height of bg image- padding within link (ie: 32px - 4px - 4px)*/
+    padding: 4px 0 4px 10px;
+    line-height: 24px; /*Set line-height of bg image- padding within link (ie: 32px - 4px - 4px)*/
+    text-decoration: none;
+}
+
+.arrowgreen li a:link, .arrowgreen li a:visited {
+    color: #5E7830;
+}
+
+.arrowgreen li a:hover{
+    color: #26370A;
+    background-position: 100% -32px;
+}
+
+
+.arrowgreen li a.selected{
+    color: #26370A;
+    background-position: 100% -64px;
+}
+
+#menu{    
+    padding: 0px;
+    margin: 0px;
+}
+
+#menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+#menu li {
+    display: inline;
+}
+
+#menu a {
+    display: block;
+    float: left;
+    height: 21px;
+    margin: 0;
+    padding: 7px 30px 0 7px;
+    text-decoration: none;
+    text-transform: capitalize;   
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 12px;
+    color: #636363;
+    border-bottom: #232323 1px dotted;
+    width: 140px;
+}
+
+#menu a:hover {
+    color: #232323;
+}
+
+.pname{
+    font-size: 16px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    padding: 2px;
+    color: #232323;
+}
+
+.moduletable_menu{
+    margin: 10px 0px 0px 0px;
+    padding:0px;
+    width: 205px;
+}
+.article_column {
+    padding-right:10px;
+}
+form#login-form { /* joomla 1.6 update */
+    padding: 0px;
+    margin: 0px;
+}
+fieldset.userdata { /* joomla 1.6 update */
+    border: none;
+    margin: 0px;
+    padding:10px 10px 10px 20px;
+}
+
+form#login-form ul { /* joomla 1.6 update */
+    margin:0px 0px 20px 0px;
+    width:120px;
+}
+form#login-form ul li{ /* joomla 1.6 update */
+    padding: 0px;
+    margin: 0px;
+    list-style: disc;
+    background-image:none;
+}
+
+form#login-form ul li a { /* joomla 1.6 update */
+    text-align: left;
+    font-size: 10px;
+    color: #858585;
+}
+#login-form #modlgn-username, #login-form #modlgn-passwd{
+    width:150px;
+}
+div#bottom {
+    width:100%;
+    margin:0px auto;
+    background:#000000;
+    float:left;
+}
+
+
+.moduletable_menu{
+    background: url(../images/rub_bottom.png) center bottom no-repeat;
+}
+
+
+.moduletable_menu.h3{
+
+}
+
+h3{
+    background: #26A1CB url(../images/bg_h3.png) top center no-repeat;
+    text-align: left;
+    padding-left:15px;
+    height: 42px;
+    width: 190px;
+    line-height: 40px;
+    color:#FFFFFF;
+    font-size:19px;
+    margin:0px;
+    font-weight:normal;
+    text-shadow: #1F1616 1px 1px 1px;
+}
+.legand1{
+    font-size: 18px;
+}
+
+.button	{ background: url(../images/button-bg.png) repeat-x top center; border: 1px solid #999;
+          -moz-border-radius: 5px; padding: 5px; color: black; font-weight: bold;cursor: pointer;
+          -webkit-border-radius: 5px; font-size: 13px;  width: 100px; }
+.button:hover		{ background: #01064f; color: white; }
+
+
+
+input.inputbox{
+    width: 220px;
+    background:#FFF;
+    font-size: 11px;
+    color: #000;
+    border: 1px solid #DBDBDB;
+    height: 25px;
+    padding:2px;
+    -webkit-border-radius: 4px; -moz-border-radius: 4px;
+}
+.select{
+    width: 220px;
+    background:#FFF;
+    font-size: 11px;
+    color: #000;
+    border: 1px solid #DBDBDB;
+    height: 25px;
+    padding:2px;
+    -webkit-border-radius: 4px; -moz-border-radius: 4px;
+}
+
+textarea{
+    width: 220px;
+    background:#FFF;
+    font-size: 11px;
+    color: #000;
+    border: 1px solid #DBDBDB;
+    height: 55px;
+    padding:2px;
+    -webkit-border-radius: 4px; -moz-border-radius: 4px;
+}
+
+h3
+{
+    font-size: 28px;
+    color: activeborder;
+    padding-left: 0px;
+    padding-top: 5px;
+   margin-left: 20%;
+   width: 70%;
+    padding-bottom: 5px;
+    font-weight: bold;
+    background: scroll;
+    box-shadow: inset 0px 0px 10px 5px rgba(0,0,0,.1);
+    border-radius: 5px;
+
+
+}
+
+h1
+{
+    font-size: 28px;
+    color: #ffffff;
+    padding-left: 0px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    background: #007C84;
+    box-shadow: inset 0px 0px 10px 5px rgba(0,0,0,.1);
+    border-radius: 5px;
+
+
+}
+
+h2{
+    font-size: 20px;
+    color: darkgreen;
+    padding-left: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+<!-- languagelang-css -->
+
+ 
+   html,
+    body,
+    #map {
+      height: 100%;
+      width: 100%;
+      margin: 0px;
+      padding: 0px
+    }
